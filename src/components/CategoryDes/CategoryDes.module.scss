@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  // margin-top: 2.4rem;
+  border: 1px solid rgb(236, 239, 241);
+  border-radius: 13px;
+  margin-bottom: 20px;
+}
+
+.des {
+  font-size: 0.9rem;
+  padding: 2.4rem;
+  line-height: 2rem;
+  font-family: sans-serif;
+  width: 50%;
+}
+
+.title {
+  color: red;
+}
+.image {
+  object-fit: cover;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,42 @@
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  transform: translateY(-50%);
+  // background-color: red;
+  // border: 2px solid #fff;
+  // border-radius: 50%;
+  // width: 30px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 111, 60);
+  color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  // outline: 0px;
+  box-shadow: none;
+  // position: fixed;
+
+  z-index: 999;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.modal-title {
+  font-size: 1.2rem;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.btn-submit {
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 10px 30px;
+  margin: auto;
+  margin-top: 24px;
+  display: block;
+  font-weight: 600;
+  width: 100%;
+}

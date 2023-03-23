@@ -1,0 +1,73 @@
+.wrapper {
+  background-image: url("https://order.phuclong.com.vn/_next/static/images/banner_diamon_head-4efe47238b808535a498e4defcd383dd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 364px;
+  border-radius: 12px;
+  padding: 54px 16px 16px;
+}
+.content {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+}
+.btn_back {
+  top: 20px;
+  left: 20px;
+  position: absolute;
+  display: block;
+  float: left;
+}
+.modal-logo {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.cus_name {
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 40px;
+  font-size: 1.3rem;
+  color: var(--primary);
+}
+.sign_up {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: var(--primary);
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.separater {
+  margin-top: 20px;
+  border-bottom: var(--cool-border);
+  width: 100%;
+}
+.form {
+  margin-top: 24px;
+  width: 100%;
+}
+.submit_btn {
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: #fff;
+  padding: 10px 30px;
+  margin: auto;
+  margin-top: 24px;
+  display: block;
+  font-weight: 600;
+}

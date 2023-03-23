@@ -1,0 +1,61 @@
+.wapper {
+  display: flex;
+  width: 633px;
+  // height: 125px;
+  padding: 16px 24px;
+  border-bottom: var(--cool-border);
+  max-width: 100vw;
+}
+.img-wrapper {
+  width: 109px;
+  height: 92px;
+  border-radius: 10px;
+  background-color: rgb(236, 239, 241);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .img {
+    width: 60px;
+  }
+}
+
+.info {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.options {
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+}
+
+.bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+}
+
+.actions {
+}
+
+.edit {
+  margin-bottom: 10px;
+  color: var(--primary);
+
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+}

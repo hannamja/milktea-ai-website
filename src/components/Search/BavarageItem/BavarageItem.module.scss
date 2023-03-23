@@ -1,0 +1,25 @@
+.wrapper {
+  //   border: 1px solid var(--border-color);
+  display: flex;
+  cursor: pointer;
+}
+
+.img {
+  width: 50px;
+  object-fit: contain;
+  height: 79px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+
+.info_name {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.info_price {
+  font-size: 1rem;
+}

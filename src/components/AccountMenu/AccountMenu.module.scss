@@ -1,0 +1,49 @@
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_item {
+  display: flex;
+  //   align-items: center;
+  justify-content: start;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.sidebar {
+  &.isActive {
+    transition: height 0.4s ease;
+    border-right: 4px solid var(--primary);
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: grow 0.2s ease;
+  }
+}
+
+.image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.title {
+  font-size: 1rem;
+  &:hover {
+    color: var(--primary);
+    text-decoration: underline;
+  }
+}
+@keyframes grow {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
