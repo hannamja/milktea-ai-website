@@ -1,0 +1,40 @@
+.wrapper {
+}
+.items {
+  display: flex;
+  font-family: sans-serif;
+}
+.item {
+  font-size: 0.9rem;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--primary);
+  }
+}
+a.link {
+  padding: 10px;
+  font-size: 1.4rem;
+  border-bottom: 2px solid rgb(236, 239, 241);
+}
+a:has(.acitve),
+.link:hover {
+  border-bottom: 2px solid var(--primary);
+}
+.acitve {
+  color: var(--primary);
+}
+.line {
+  margin-top: -3px;
+  border-width: 0px 0px 3px;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-left-color: initial;
+  border-image: initial;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(236, 239, 241);
+}

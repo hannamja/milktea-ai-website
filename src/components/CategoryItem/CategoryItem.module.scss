@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 5px;
+  width: 83px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & > img {
+    width: 58px;
+    object-fit: contain;
+  }
+  .img-small {
+    width: 53px;
+  }
+  &:hover {
+    background-color: rgb(236, 239, 241);
+    border-bottom: 2px solid var(--primary);
+  }
+}
+.smallWidth {
+  width: 73px;
+  height: 73px;
+}
+
+.title {
+  color: var(--primary);
+  font-size: 1rem;
+}
+.active {
+  background-color: rgb(236, 239, 241);
+  border-bottom: 2px solid var(--primary);
+}

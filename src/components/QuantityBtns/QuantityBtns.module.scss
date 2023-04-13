@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .active {
+    color: #fff;
+    background-color: var(--primary);
+  }
+}
+.btn {
+  font-size: 0.9rem;
+  color: var(--primary);
+  background-color: #fff;
+  border: var(--cool-border);
+  border: none;
+  background-color: rgb(236, 239, 241);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.value {
+  // padding: 0 10px;
+  width: 27px;
+  text-align: center;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,43 @@
+.wrapper-tippy {
+  // width: 320px;
+  // min-height: 450px;
+  box-shadow: #99999999 0px 0px 10px 0px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.message-tippy {
+}
+.tippy-header {
+  display: flex;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.tippy-button {
+  width: 160px;
+  height: 48px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.icon {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+  margin-left: 24px;
+  height: 100%;
+  cursor: pointer;
+}
+.line {
+  border-bottom: 2px solid var(--primary);
+  width: 50%;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+.tippy_body {
+  overflow: auto;
+  height: 400px;
+  margin-top: 12px;
+}
+.body {
+  justify-content: center;
+  display: flex;
+}

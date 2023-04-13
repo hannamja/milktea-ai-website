@@ -1,0 +1,15 @@
+.btn_user {
+  display: flex;
+  align-items: center;
+  color: var(--primary);
+  margin-left: 24px;
+  height: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.wrapper-tippy {
+  box-shadow: rgb(153 153 153 / 60%) 0px 0px 10px 0px;
+  border-radius: 5px;
+  background-color: #fff;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+  width: 214px;
+  overflow-y: hidden;
+  max-height: 100vh;
+  border: var(--cool-border);
+  padding: 10px;
+  height: 100%;
+  min-height: 446px;
+}
+@media (max-width: 740px) {
+  .wrapper {
+    display: flex;
+    width: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+  }
+}

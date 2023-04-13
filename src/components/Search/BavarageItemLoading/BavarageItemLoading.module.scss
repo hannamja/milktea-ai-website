@@ -1,0 +1,53 @@
+.wrapper {
+  //   border: 1px solid var(--border-color);
+  display: flex;
+  cursor: pointer;
+  animation: loading 1s ease-in-out infinite;
+  margin: 20px 0;
+}
+.img_wrapper {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  border-radius: 3px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12px;
+  border-radius: 3px;
+}
+
+.info_name {
+  margin-bottom: 10px;
+  border-radius: 3px;
+
+  width: 60px;
+  height: 15px;
+  background-color: #333;
+}
+
+.info_price {
+  width: 100px;
+  height: 15px;
+  background-color: #333;
+  border-radius: 3px;
+}
+@keyframes loading {
+  // from {
+  //   opacity: 0;
+  // }
+  // to {
+  //   opacity: 0.5;
+  // }
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}

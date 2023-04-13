@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0 18px;
+}
+
+.title {
+  margin-top: 20px;
+  // font-family: "Baloo 2";
+  color: var(--primary);
+  font-size: 34px;
+  line-height: 5.5rem;
+  font-weight: 700;
+}
+
+.sub_title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+  line-height: 29px;
+  font-size: 1rem;
+}
+.goto_products {
+  text-decoration: underline;
+  color: var(--primary);
+}
